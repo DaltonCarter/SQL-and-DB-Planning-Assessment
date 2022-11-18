@@ -230,7 +230,7 @@ module.exports = {
             ('Zimbabwe');
 
             insert into cities (name, rating, country_id)
-            values('L.A', 2, 187), ('Dublin', 4, 82), (Kyoto, 5, 86);
+            values('L.A', 2, 187), ('Dublin', 4, 82), ('Kyoto', 5, 86);
         `).then(() => {
             console.log('DB seeded!')
             res.sendStatus(200)
